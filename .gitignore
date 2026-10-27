@@ -3,6 +3,10 @@
 **/node_modules/
 **/build/
 
+# Local-only compose overrides (e.g. host-specific Docker socket permission
+# workarounds) — never meant to be shared or committed.
+docker-compose.override.yml
+
 # Logs
 logs
 *.log
